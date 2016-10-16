@@ -20,7 +20,7 @@ $ ./make_research_table.bash
 ```
 
 Please check the duplicates carefully. You may wish to delete entries in 
-your bib file that are duplicates of entries from anotehr file. Also, the 
+your bib file that are duplicates of entries from another file. Also, the 
 duplicate detection relies on the same tag being used for an entry, which
 means that the bibliographies should start from an auto-generated source.
 I downloaded my bibtex file from dblp (e.g., 
