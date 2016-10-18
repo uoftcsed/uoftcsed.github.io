@@ -2,7 +2,7 @@
 layout:     post
 title:      Reading Group in the Fall Term
 date:       2016-10-18 01:24:00
-summary:    CS education reading group meeting Mondays @ 4:00 online and at UTM.
+summary:    The CS education reading group is meeting Mondays @ 4:00 online and at UTM.
 categories: events
 ---
 
