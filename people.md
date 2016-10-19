@@ -11,6 +11,7 @@ tags: people faculty
 - [Steve Engels](http://www.cs.toronto.edu/~sengels/)
 - [Paul Gries](http://www.cs.toronto.edu/~pgries/)
 - [Andrew Petersen](http://andrewpetersen.info/)
+- [Fran&ccedil;ois Pitt](http://www.cs.toronto.edu/~fpitt/)
 - [Karen Reid](http://www.cs.toronto.edu/~reid/)
 - [Jacqueline Smith](http://www.jesmith.ca/)
 - [Anya Tafliovich](http://www.utsc.utoronto.ca/~atafliovich/)
