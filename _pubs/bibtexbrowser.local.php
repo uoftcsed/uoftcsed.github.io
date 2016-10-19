@@ -76,8 +76,8 @@ function ACMBibliographyStyle(&$bibentry) {
 
   if ($publisher!='') $entry[] = $publisher;
 
-  if ($bibentry->hasField('volume')) $entry[] =  "vol. ".$bibentry->getField("volume");
-  if ($bibentry->hasField('number')) $entry[] =  'no. '.$bibentry->getField("number");
+  if ($bibentry->hasField('volume')) $entry[] =  'vol. '.$bibentry->getField("volume").' ';
+  if ($bibentry->hasField('number')) $entry[] =  'no. '.$bibentry->getField("number").' ';
 
   if ($bibentry->hasField(YEAR)) $entry[] = "(".$bibentry->getYear().")";
 
