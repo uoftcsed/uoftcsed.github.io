@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Faculty
+title: People
 permalink: /people/
 tags: people faculty
 ---
@@ -10,6 +10,7 @@ tags: people faculty
 - [Steve Easterbrook](http://www.cs.toronto.edu/~sme/)
 - [Steve Engels](http://www.cs.toronto.edu/~sengels/)
 - [Paul Gries](http://www.cs.toronto.edu/~pgries/)
+- [Elizabeth Patitsas](http://www.cs.toronto.edu/~patitsas/)
 - [Andrew Petersen](http://andrewpetersen.info/)
 - [Fran&ccedil;ois Pitt](http://www.cs.toronto.edu/~fpitt/)
 - [Karen Reid](http://www.cs.toronto.edu/~reid/)
