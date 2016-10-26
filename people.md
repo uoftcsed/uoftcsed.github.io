@@ -2,7 +2,7 @@
 layout: page
 title: People
 permalink: /people/
-tags: people faculty
+tags: people faculty grads
 ---
 
 - [Jennifer Campbell](https://jencampbell.github.io/)
