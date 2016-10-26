@@ -39,6 +39,10 @@ text:
     coming_soon: 'Coming soon...'
   og_locale: 'en_US'
 
+# Collections of content
+collections:
+  projects:
+
 # Build settings
 markdown:     kramdown
 redcarpet:
