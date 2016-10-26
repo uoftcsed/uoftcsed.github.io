@@ -10,6 +10,7 @@ tags: people faculty grads
 - [Steve Easterbrook](http://www.cs.toronto.edu/~sme/)
 - [Steve Engels](http://www.cs.toronto.edu/~sengels/)
 - [Paul Gries](http://www.cs.toronto.edu/~pgries/)
+- [David Liu](http://www.cs.toronto.edu/~david/)
 - [Elizabeth Patitsas](http://www.cs.toronto.edu/~patitsas/)
 - [Andrew Petersen](http://andrewpetersen.info/)
 - [Fran&ccedil;ois Pitt](http://www.cs.toronto.edu/~fpitt/)
