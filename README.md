@@ -8,7 +8,7 @@ To get started, after cloning our repo:
 ```
 $ gem install bundler # If you don't have bundler installed
 $ bundle install
-$ jekyll serve --watch # So the page will update live as you make changes
+$ jekyll serve
 ```
 
 The publications page (pubs.md) is autogenenerated from bibtex using 
