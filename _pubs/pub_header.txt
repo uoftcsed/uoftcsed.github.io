@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: searchable_page
 title: Publications
+searchid: pubs
 permalink: /pubs/
 tags: publications
 ---
 
+<table id="pubs" class="result">

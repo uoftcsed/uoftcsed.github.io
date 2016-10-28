@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: searchable_page
 title: Publications
+searchid: pubs
 permalink: /pubs/
 tags: publications
 ---
 
-<table class="result">
+<table id="pubs" class="result">
 <tr><td colspan="2" class="sheader">2016</td></tr>
 <tr class="bibline"><td class="bibref"><a class="bibanchor" name="84"></a>[84]</td><td class="bibitem">Soohyun Nam, Daniel Zingaro, Michael Laurenzano, William Griswold and Leo Porter. "Lightweight, Early Identification of At-Risk CS1 Students." <i>Proceedings of the 12th international Conference on Computing Education Research (ICER) </i>(2016): 123-131.
 <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=Lightweight%2C+Early+Identification+of+At-Risk+CS1+Students&amp;rft.btitle=Proceedings+of+the+12th+international+Conference+on+Computing+Education+Research+%28ICER%29&amp;rft.genre=bookitem&amp;rft.pub=&amp;rfr_id=info%3Asid%2F%3Abibs%2FCampbell.bib%3Bbibs%2FCraig.bib%3Bbibs%2FEasterbrook.bib%3Bbibs%2FEngels.bib%3Bbibs%2FGries.bib%3Bbibs%2FLiu.bib%3Bbibs%2FPatitsas.bib%3Bbibs%2FPetersen.bib%3Bbibs%2FPitt.bib%3Bbibs%2FReid.bib%3Bbibs%2FSmith.bib%3Bbibs%2FTafliovich.bib%3Bbibs%2FZingaro.bib&amp;rft.date=2016&amp;rft.au=Soohyun+Nam&amp;rft.au=Daniel+Zingaro&amp;rft.au=Michael+Laurenzano&amp;rft.au=William+Griswold&amp;rft.au=Leo+Porter"></span> <span class="bibmenu"></span></td></tr>
