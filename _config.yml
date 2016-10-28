@@ -42,6 +42,7 @@ text:
 # Collections of content
 collections:
   projects:
+  people:
 
 # Build settings
 markdown:     kramdown
