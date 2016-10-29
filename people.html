@@ -11,20 +11,9 @@ tags: people faculty grads
 
   <div class="posts">
     {% for person in site.people %}
-      <div style="width: 100%; overflow: hidden;">
-        <div style="width: 5%; float: left;">
-          <br />
-          <img src="{{ person.photo }}" style="max-width: 100%;">
-        </div>
-        <div style="margin-left: 10%">
-          <p>
-            <br />
-            <a href="{{ person.homepage }}" class="post-link">{{ person.name }}</a>
-            {% if person.info %}
-              <br />{{ person.info }}
-            {% endif %}
-          </p>
-        </div>
+      <div style="margin: 20px; width: 120px; overflow: hidden; display: inline-block; text-align: center;">
+        <img src="{{ person.photo }}" style="max-width: 100%;"><br />
+        <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }}<br />{{ person.lastname }}</a>
       </div>
     {% endfor %}
   </div>
