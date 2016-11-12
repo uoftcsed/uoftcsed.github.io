@@ -4,12 +4,28 @@ The base theme for this site is pixyll:
 It's pretty stripped down to remove any hint of the social media features in 
 the template.
 
-To get started, after cloning our repo:
+### Getting Started ###
+
+To update the page, simply clone the repository, make changes to files, and then commit and push them.
+They'll immediately become visible.
+
+It's a good idea to review your changes before pushing them back to the repository. To view a local
+copy of the page, go to the directory where you have cloned the repository. Then:
+
 ```
 $ gem install bundler # If you don't have bundler installed
-$ bundle install
+$ bundle install      # Perform this once to set up jekyll
 $ jekyll serve
 ```
+
+### Adding News, People, or Projects ###
+
+The content on most of the pages is auto-generated once an entry is created in the right content area.
+To create a news item, create a file in _posts. To add a new person or project, add a file to _people
+or _projects, respectively. Check out the existing files in those directories to get examples of the 
+fields that are supported.
+
+### Updating Publications ###
 
 The publications page (pubs.md) is autogenenerated from bibtex using 
 [bibtexbrowser](http://www.monperrus.net/martin/bibtexbrowser). To update 
