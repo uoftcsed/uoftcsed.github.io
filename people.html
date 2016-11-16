@@ -7,14 +7,47 @@ tags: people faculty grads
 
 <div class="home">
 
-  <h2>People</h2>
+  <h2>Faculty and Graduate Students</h2>
 
   <div class="posts">
     {% for person in site.people %}
-      <div style="margin: 20px; width: 120px; overflow: hidden; display: inline-block; text-align: center;">
-        <img src="{{ person.photo }}" style="max-width: 100%;"><br />
-        <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }}<br />{{ person.lastname }}</a>
-      </div>
+      {% if person.categories contains "graduate" or person.categories contains "faculty" %}
+        <div style="margin: 20px; width: 120px; overflow: hidden; display: inline-block; text-align: center;">
+          <a href="{{ person.homepage }}" class="post-link">
+            <img src="{{ person.photo }}" style="max-width: 100%;"><br />
+            {{ person.firstname }}<br />{{ person.lastname }}
+          </a>
+        </div>
+      {% endif %}
     {% endfor %}
   </div>
+
+  <h2>Undergraduate Students</h2>
+
+  <div class="posts">
+    <ul>
+    {% for person in site.people %}
+      {% if person.categories contains "undergraduate" %}
+        <li>
+          <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div>
+
+  <h2>Alumni</h2> 
+
+<!--  <div class="posts">
+    <ul>
+    {% for person in site.people %}
+      {% if person.categories contains "alumni" %} 
+        <li>
+          <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+  </div> -->
+
 </div>
