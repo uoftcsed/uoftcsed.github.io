@@ -50,7 +50,7 @@ tags: people faculty grads
          {% if person.homepage %}
             <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>
          {% else %}
-            class="post-link">{{ person.firstname }} {{ person.lastname }}
+            {{ person.firstname }} {{ person.lastname }}
          {% endif %}
         </li>
       {% endif %}
