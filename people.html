@@ -29,7 +29,11 @@ tags: people faculty grads
     {% for person in site.people %}
       {% if person.categories contains "undergraduate" %}
         <li>
-          <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>
+         {% if person.homepage %}
+            <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>
+         {% else %}
+            {{ person.firstname }} {{ person.lastname }}
+         {% endif %}
         </li>
       {% endif %}
     {% endfor %}
@@ -43,7 +47,11 @@ tags: people faculty grads
     {% for person in site.people %}
       {% if person.categories contains "alumni" %} 
         <li>
-          <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>
+         {% if person.homepage %}
+            <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>
+         {% else %}
+            class="post-link">{{ person.firstname }} {{ person.lastname }}
+         {% endif %}
         </li>
       {% endif %}
     {% endfor %}
