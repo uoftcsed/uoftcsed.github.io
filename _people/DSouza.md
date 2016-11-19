@@ -1,6 +1,6 @@
 ---
-firstname:  D'Souza
-lastname:   Noel
+firstname:  Noel
+lastname:   D'Souza
 homepage:   http://noeldsouza.com
 categories: alumni
 ---
