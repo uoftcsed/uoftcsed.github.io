@@ -3203,6 +3203,9 @@ class SimpleDisplay  {
       case 'definition':
         return '<div class="'.$this->headerCSS.'">'.$bib->getYear().'</div>'."\n";
         break;
+      case 'ordered_list':
+        return '<div class="'.$this->headerCSS.'">'.$bib->getYear().'</div>'."\n";
+        break;
       case 'list':
       	$string = '';
         if ($pred) $string .= "</ul>\n";
