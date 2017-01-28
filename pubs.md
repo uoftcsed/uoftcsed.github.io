@@ -7,6 +7,10 @@ tags: publications
 ---
 
 <table id="pubs" class="result">
+<tr><td colspan="2" class="sheader">2017</td></tr>
+<tr class="bibline"><td class="bibref"><a class="bibanchor" name="91"></a>[91]</td><td class="bibitem">Andrew Luxton-Reilly and Andrew Petersen.  <a href="http://doi.acm.org/10.1145/3013499.3013500">"The Compound Nature of Novice Programming Assessments." </a><i>Proceedings of the Nineteenth Australasian Computing Education Conference </i>(2017): 26-35.
+<b>Best Paper Award</b>
+<span class="Z3988" title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.atitle=The+Compound+Nature+of+Novice+Programming+Assessments&amp;rft.btitle=Proceedings+of+the+Nineteenth+Australasian+Computing+Education+Conference&amp;rft.genre=bookitem&amp;rft.pub=&amp;rft_id=http%3A%2F%2Fdoi.acm.org%2F10.1145%2F3013499.3013500&amp;rfr_id=info%3Asid%2F%3Abibs%2FCampbell.bib%3Bbibs%2FCraig.bib%3Bbibs%2FEasterbrook.bib%3Bbibs%2FEngels.bib%3Bbibs%2FGries.bib%3Bbibs%2FHorton.bib%3Bbibs%2FLiu.bib%3Bbibs%2FPatitsas.bib%3Bbibs%2FPetersen.bib%3Bbibs%2FPitt.bib%3Bbibs%2FReid.bib%3Bbibs%2FSmith.bib%3Bbibs%2FTafliovich.bib%3Bbibs%2FZingaro.bib&amp;rft.date=2017&amp;rft.au=Andrew+Luxton-Reilly&amp;rft.au=Andrew+Petersen"></span> <span class="bibmenu"><a href="http://doi.acm.org/10.1145/3013499.3013500">[pdf]</a> <a href="http://dx.doi.org/10.1145/3013499.3013500">[doi]</a></span></td></tr>
 <tr><td colspan="2" class="sheader">2016</td></tr>
 <tr class="bibline"><td class="bibref"><a class="bibanchor" name="90"></a>[90]</td><td class="bibitem">Andrew Petersen, Michelle Craig, Jennifer Campbell and Anya Tafliovich.  <a href="http://doi.acm.org/10.1145/2999541.2999552">"Revisiting Why Students Drop CS1." </a><i>Proceedings of the 16th Koli Calling International Conference on Computing Education Research </i>(2016): 71-80.
 <b>Special commendation: Runner-up for best paper</b>
