@@ -15,7 +15,7 @@ copy of the page, go to the directory where you have cloned the repository. Then
 ```
 $ gem install bundler # If you don't have bundler installed
 $ bundle install      # Perform this once to set up jekyll
-$ jekyll serve
+$ bundle exec jekyll serve
 ```
 
 ### Adding News, People, or Projects ###
