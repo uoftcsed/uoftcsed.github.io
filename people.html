@@ -22,7 +22,7 @@ tags: people faculty grads
     {% endfor %}
   </div>
 
-  <h2>Undergraduate Students</h2>
+  <h2>Current Undergraduate Students</h2>
 
   <div class="posts">
     <ul>
@@ -43,9 +43,26 @@ tags: people faculty grads
   <h2>Alumni</h2> 
 
   <div class="posts">
+    {% for person in site.people %}
+      {% if person.categories contains "grad-alumni" %}
+        <div style="margin: 20px; width: 120px; overflow: hidden; display: inline-block; text-align: center;">
+          <a href="{{ person.homepage }}" class="post-link">
+            <img src="{{ person.photo }}" style="max-width: 100%;"><br />
+            {{ person.firstname }}<br />{{ person.lastname }}
+            {% if person.institution %}
+              <font size=3><br />({{ person.institution }})</font>
+            {% endif %}
+          </a>
+        </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="posts">
+    <b>Undergraduates</b>
     <ul>
     {% for person in site.people %}
-      {% if person.categories contains "alumni" %} 
+      {% if person.categories contains "undergrad-alumni" %} 
         <li>
          {% if person.homepage %}
             <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>

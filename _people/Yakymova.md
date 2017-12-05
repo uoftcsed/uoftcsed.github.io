@@ -1,5 +1,5 @@
 ---
 firstname:  Hanna
 lastname:   Yakymova
-categories: alumni
+categories: undergrad-alumni
 ---

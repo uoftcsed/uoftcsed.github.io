@@ -1,5 +1,5 @@
 ---
 firstname:  Dennis
 lastname:   Windsor
-categories: undergraduate
+categories: undergrad-alumni
 ---
