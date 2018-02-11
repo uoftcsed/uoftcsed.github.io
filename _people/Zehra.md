@@ -1,5 +1,5 @@
 ---
 firstname:  Shamama
 lastname:   Zehra
-categories: undergrad
+categories: undergraduate
 ---
