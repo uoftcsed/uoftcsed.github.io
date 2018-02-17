@@ -69,6 +69,9 @@ tags: people faculty grads
          {% else %}
             {{ person.firstname }} {{ person.lastname }}
          {% endif %}
+         {% if person.year %}
+            ({{ person.year }})
+         {% endif %}
         </li>
       {% endif %}
     {% endfor %}
