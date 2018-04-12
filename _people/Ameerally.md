@@ -1,7 +1,7 @@
 ---
-firstname:  Nikki
-lastname:   Sigurdson
-year: 2016-
+firstname:  Mikhail
+lastname:   Ameerally
+year: 2018-
 categories: undergraduate
 supervisor: Petersen
 ---
