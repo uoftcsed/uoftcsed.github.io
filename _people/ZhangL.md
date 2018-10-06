@@ -2,6 +2,6 @@
 firstname:  Lisa
 lastname:   Zhang
 homepage:   http://lisazhang.ca/
-photo:      http://lisazhang.ca/lisa.png
+photo:      /assets/zhangl.png
 categories: faculty
 ---
