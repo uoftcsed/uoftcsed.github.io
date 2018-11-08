@@ -2,6 +2,6 @@
 firstname:  Jennifer
 lastname:   Campbell
 homepage:   https://jencampbell.github.io/
-photo:      https://jencampbell.github.io/jen.jpg
+photo:      /assets/jen_campbell.jpg
 categories: faculty
 ---
