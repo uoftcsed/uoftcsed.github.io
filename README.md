@@ -21,8 +21,7 @@ $ bundle exec jekyll serve
 If a bundled dependency goes out of date, or to install a new dependency, use bundle:
 
 ```
-$ bundle install newpackage # Installs a new ruby gem
-$ bundle update oldpackage  # Updates an existing ruby gem
+$ bundle update package  # Updates an existing ruby gem or installs a new package
 ```
 
 ### Adding News, People, or Projects ###
