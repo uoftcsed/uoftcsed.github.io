@@ -18,6 +18,13 @@ $ bundle install      # Perform this once to set up jekyll
 $ bundle exec jekyll serve
 ```
 
+If a bundled dependency goes out of date, or to install a new dependency, use bundle:
+
+```
+$ bundle install newpackage # Installs a new ruby gem
+$ bundle update oldpackage  # Updates an existing ruby gem
+```
+
 ### Adding News, People, or Projects ###
 
 The content on most of the pages is auto-generated once an entry is created in the right content area.
