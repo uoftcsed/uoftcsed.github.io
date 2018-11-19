@@ -18,7 +18,16 @@ $ bundle install      # Perform this once to set up jekyll
 $ bundle exec jekyll serve
 ```
 
-If a bundled dependency goes out of date, or to install a new dependency, use bundle:
+### Updates ###
+
+From time to time, the Gemfile for this project will be updated, so it's a good idea to update 
+dependencies with:
+
+```
+$ bundle update          # Update all dependencies
+```
+
+To update or install a specific dependency, use update with the package name as an argument:
 
 ```
 $ bundle update package  # Updates an existing ruby gem or installs a new package
