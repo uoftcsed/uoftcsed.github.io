@@ -60,8 +60,8 @@ and then updated it. In particular, you may wish to ...
 
 - Remove non-CSEd papers
 - Add CSEd papers published in non-CS venues
-- Append the numerical month to each entry tag/name. (This helps with 
+- Pre-pend the numerical month to each entry tag/name. (This helps with 
 ordering, as bibtexbrowser orders by year and then alphabetically by
 entry tag.)
-- Add a comment field. Comment field are appended to the reference, which
+- Add a comment field. Comment field text can include html tags and is appended to the reference, which
 is useful for linking to slides or highlighting an award.
