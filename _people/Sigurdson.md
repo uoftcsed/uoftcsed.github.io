@@ -2,6 +2,6 @@
 firstname:  Nikki
 lastname:   Sigurdson
 year: 2016-2019
-categories: undergraduate-alumni
+categories: undergrad-alumni
 supervisor: Petersen
 ---

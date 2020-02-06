@@ -2,6 +2,6 @@
 firstname:  Mikhail
 lastname:   Ameerally
 year: 2018-2019
-categories: undergraduate-alumni
+categories: undergrad-alumni
 supervisor: Petersen
 ---
