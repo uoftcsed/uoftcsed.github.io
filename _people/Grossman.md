@@ -2,6 +2,6 @@
 firstname:  Tovi
 lastname:   Grossman
 homepage:   http://www.tovigrossman.com/
-photo:      http://www.dgp.toronto.edu/~tovi/tovigrossman/images/chi2014-crop-2.jpg
+photo:      https://www.tovigrossman.com/images/tovi.jpg
 categories: faculty
 ---
