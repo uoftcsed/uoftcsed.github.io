@@ -1,15 +1,4 @@
-{% for page in site.pages %}
-    {% if page.tags contains "people" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endif %}
-{% endfor %}
-{% for page in site.pages %}
-    {% if page.tags contains "publications" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endif %}
-{% endfor %}
-{% for page in site.pages %}
-    {% if page.tags contains "projects" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endif %}
-{% endfor %}
+<a href="{{ site.url }}/people">People</a>
+<a href="{{ site.url }}/pubs">Publications</a>
+<a href="{{ site.url }}/books">Textbooks</a>
+<a href="{{ site.url }}/projects">Projects</a>

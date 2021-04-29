@@ -15,20 +15,22 @@ tags: projects
 
   <div class="posts">
     {% for project in site.projects %}
-      <div style="width: 100%; overflow: hidden;">
-        <div style="width: 20%; float: left;">
-          <br />
-          <a href="{{ project.proj_url }}"><img src="{{ project.proj_image }}" style="max-width: 100%;"></a>
+      {% if project.tags contains "software" %}
+        <div style="width: 100%; overflow: hidden;">
+          <div style="width: 20%; float: left;">
+            <br />
+            <a href="{{ project.proj_url }}"><img src="{{ project.proj_image }}" style="max-width: 100%;"></a>
+          </div>
+          <div style="margin-left: 25%">
+            <p class="post-meta">
+              <a href="{{ project.proj_url }}" class="post-link"><h3 class="post-title">{{ project.title }}</h3></a>
+            </p>
+            <p class="post-summary">
+              {{ project.summary }}
+            </p>
+          </div>
         </div>
-        <div style="margin-left: 25%">
-          <p class="post-meta">
-            <a href="{{ project.proj_url }}" class="post-link"><h3 class="post-title">{{ project.title }}</h3></a>
-          </p>
-          <p class="post-summary">
-            {{ project.summary }}
-          </p>
-        </div>
-      </div>
+      {% endif %}
     {% endfor %}
   </div>
 </div>
