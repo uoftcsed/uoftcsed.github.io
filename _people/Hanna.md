@@ -1,7 +1,7 @@
 ---
 firstname:  Georges
 lastname:   Hanna
-year: 2020
-categories: undergraduate
+year: 2020-2021
+categories: undergrad-alumni
 supervisor: Petersen
 ---
