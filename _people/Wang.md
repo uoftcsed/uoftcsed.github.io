@@ -2,6 +2,6 @@
 firstname:  Muyu (Sandy)
 lastname:   Wang
 year: 2020-2021
-categories: undergraduate-alumni
+categories: undergrad-alumni
 supervisor: Liut, Dema
 ---
