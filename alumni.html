@@ -1,60 +1,69 @@
 ---
 layout: default
-title: People
-permalink: /people/
+title: Former Members and Alumni
+permalink: /alumni/
 tags: people faculty grads
 ---
 
 <div class="home">
 
-  <h2>Faculty</h2>
+  <h2>Former Faculty</h2>
 
   <div class="posts">
     {% for person in site.people %}
-      {% if person.categories contains "faculty" %}
+      {% if person.categories contains "former-faculty" %}
         <div style="margin: 20px; width: 120px; overflow: hidden; display: inline-block; text-align: center;">
           <a href="{{ person.homepage }}" class="post-link">
             <img src="{{ person.photo }}" style="max-width: 100%;"><br />
             {{ person.firstname }}<br />{{ person.lastname }}
+            {% if person.institution %}
+              <font size=3><br />({{ person.institution }})</font>
+            {% endif %}
           </a>
         </div>
       {% endif %}
     {% endfor %}
   </div>
 
-  <h2>Graduate Students</h2>
+
+  <h2>Graduate Alumni</h2>
 
   <div class="posts">
     {% for person in site.people %}
-      {% if person.categories contains "graduate" %}
+      {% if person.categories contains "grad-alumni" %}
         <div style="margin: 20px; width: 120px; overflow: hidden; display: inline-block; text-align: center;">
           <a href="{{ person.homepage }}" class="post-link">
             <img src="{{ person.photo }}" style="max-width: 100%;"><br />
             {{ person.firstname }}<br />{{ person.lastname }}
+            {% if person.institution %}
+              <font size=3><br />({{ person.institution }})</font>
+            {% endif %}
           </a>
         </div>
       {% endif %}
     {% endfor %}
   </div>
 
-  <h2>Undergraduate Students</h2>
+  <h2>Undergraduate Alumni</h2>
 
   <div class="posts">
+    <b>Undergraduates</b>
     <ul>
     {% for person in site.people %}
-      {% if person.categories contains "undergraduate" %}
+      {% if person.categories contains "undergrad-alumni" %}
         <li>
          {% if person.homepage %}
             <a href="{{ person.homepage }}" class="post-link">{{ person.firstname }} {{ person.lastname }}</a>
          {% else %}
             {{ person.firstname }} {{ person.lastname }}
          {% endif %}
+         {% if person.year %}
+            ({{ person.year }})
+         {% endif %}
         </li>
       {% endif %}
     {% endfor %}
     </ul>
   </div>
-
-  <h2><a href="{{ site.url }}/alumni">Former Members and Alumni</a></h2>
 
 </div>
