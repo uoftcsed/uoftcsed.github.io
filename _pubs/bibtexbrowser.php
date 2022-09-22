@@ -2192,7 +2192,7 @@ function compare_bib_entry_by_year($a, $b)
 
   if ($yearA === $yearB)
     return 0;
-  else if ($yearA < $yearB)
+  else if ($yearA > $yearB)
     return -1;
   else
     return 1;
@@ -2246,6 +2246,7 @@ function compare_bib_entry_by_month($a, $b)
   //desired order of values
   $sort_order_values = array('jan','january','feb','february','mar','march','apr','april','may','jun','june','jul','july','aug','august','sep','september','oct','october','nov','november','dec','december');
   //order: 1=as specified in $sort_order_values  or -1=reversed
+  $order = -1;  
 
 
   //first check if the search key exists
