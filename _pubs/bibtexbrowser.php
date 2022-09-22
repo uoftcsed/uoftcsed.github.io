@@ -2256,11 +2256,11 @@ function compare_bib_entry_by_month($a, $b)
   }
   elseif (!array_key_exists($sort_key,$a->fields)) {
     //only b has the field -> b is greater
-    $retval=1;
+    $retval=-1;
   }
   elseif  (!array_key_exists($sort_key,$b->fields)) {
     //only a has the key -> a is greater
-    $retval=-1;
+    $retval=1;
   }
   else {
     //both have the key, sort using the order given in $sort_order_values
@@ -2274,15 +2274,15 @@ function compare_bib_entry_by_month($a, $b)
     }
     elseif (($val_a === FALSE) || ($val_a < $val_b)) {
       //a is not in the search array or a<b -> b is greater
-      $retval=1;
+      $retval=-1;
     }
     elseif (($val_b === FALSE) || (($val_a > $val_b))){
       //b is not in the search array or a>b -> a is greater
-      $retval=-1;
+      $retval=1;
     }
   }
 
-  return $retval;
+  return $order*$retval;
 }
 
 /** is the default sectioning for AcademicDisplay (books, articles, proceedings, etc. ) */
