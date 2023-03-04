@@ -3180,6 +3180,8 @@ class SimpleDisplay  {
 
   var $headingLevel = BIBTEXBROWSER_HTMLHEADINGLEVEL;
 
+  var $query = NULL;
+
   function __construct($db = NULL, $query = array()) {
     if ($db == NULL) return;
     $this->setEntries($db->multisearch($query));
