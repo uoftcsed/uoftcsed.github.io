@@ -7,7 +7,6 @@ tags: publications
 ---
 
 <table id="pubs" class="result">
-Deprecated: Creation of dynamic property SimpleDisplay::$query is deprecated in /Users/peters43/Documents/web/uoftcsed.github.io/_pubs/bibtexbrowser.php on line 3233
 <table class="result">
 <tr><td colspan="2" class="sheader">2023</td></tr>
 <tr class="bibline"><td class="bibref"><a class="bibanchor" name="206"></a>[206]</td><td class="bibitem">Zhang, Lisa, Simion, Bogdan, Kaler, Michael, Liaqat, Amna, Dick, Daniel, Bergen, Andi, Miljanovic, Michael and Petersen, Andrew.  <a href="https://doi.org/10.1145/3545945.3569729">"Embedding and Scaling Writing Instruction Across First- and Second-Year Computer Science Courses." </a><i>Proceedings of the 54th ACM Technical Symposium on Computer Science Education V. 1 </i>(2023): 610–616.
