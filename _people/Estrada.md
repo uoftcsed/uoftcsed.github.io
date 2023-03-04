@@ -2,6 +2,6 @@
 firstname:  Francisco
 lastname:   Estrada
 homepage:   http://www.cs.utoronto.ca/~strider/
-photo:      http://www.utsc.utoronto.ca/cms/sites/utsc.utoronto.ca.cms/files/styles/person-thumbnail/public/Paco_Estrada.jpg
+photo:      https://images-na.ssl-images-amazon.com/images/G/01/author-pages/no-profile-image-placeholder-na._UX
 categories: faculty
 ---
