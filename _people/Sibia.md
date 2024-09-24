@@ -1,9 +1,9 @@
 ---
 firstname:  Naaz
 lastname:   Sibia
-year: 2019-2024
+year: 2019-
 categories: graduate
-homepage: https://www.linkedin.com/in/naaz-sibia/
-photo:      https://images-na.ssl-images-amazon.com/images/G/01/author-pages/no-profile-image-placeholder-na._UX
+homepage: https://www.naazsibia.com
+photo:      /assets/naaz.jpeg
 supervisor: Nobres, Liut
 ---
