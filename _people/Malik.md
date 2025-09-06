@@ -1,8 +1,8 @@
 ---
 firstname:  Khushi
 lastname:   Malik
-year: 2024-25
+year: 2024-26
 categories: undergraduate
 homepage: https://www.linkedin.com/in/khushi-malik19/
-supervisor: Petersen
+supervisor: Petersen, Craig, Zhang, Liut
 ---
