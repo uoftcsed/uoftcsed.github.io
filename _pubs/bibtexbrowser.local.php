@@ -13,6 +13,10 @@ function ACMBibliographyStyle(&$bibentry) {
     $entry[] = $bibentry->getFormattedAuthorsString().". ";
   }
 
+  if ($title === null) {
+    error_log("Missing title in entry: " . $bibentry);
+  }
+
   // title
   if (substr($title, -1) != "." && substr($title, -1) != "?") {
     $title = '"'.$title.'." ';
